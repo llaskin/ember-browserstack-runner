@@ -1,50 +1,48 @@
 [
   {
     "browser": "firefox",
-    "browser_version": "latest",
-    "os": "OS X",
-    "os_version": "Lion"
+    "version": "latest",
+    "os": "OS X 10.12",
   },
   {
     "browser": "safari",
-    "browser_version": "latest",
-    "os": "OS X",
-    "os_version": "Mountain Lion"
+    "version": "latest",
+    "os": "OS X 10.11",
   },
   {
     "browser": "chrome",
-    "browser_version": "latest",
-    "os": "OS X",
-    "os_version": "Mountain Lion"
+    "version": "latest",
+    "os": "OS X 10.10",
   },
   {
     "browser": "firefox",
-    "browser_version": "latest",
-    "os": "Windows",
-    "os_version": "7"
+    "version": "latest",
+    "os": "OS X 10.9",
   },
   {
     "browser": "chrome",
-    "browser_version": "latest",
-    "os": "Windows",
-    "os_version": "7"
+    "version": "latest",
+    "os": "Windows 10",
   },
   {
     "browser": "ie",
-    "browser_version": "9.0",
-    "os": "Windows",
-    "os_version": "7"
+    "version": "9.0",
+    "os": "Windows 7",
   },
   {
     "browser": "ie",
-    "browser_version": "10.0",
-    "os": "Windows",
-    "os_version": "8"
+    "version": "10.0",
+    "os": "Windows 8",
   },
   {
     "browser": "ie",
-    "browser_version": "11.0",
-    "os": "Windows",
-    "os_version": "7"
+    "version": "11.0",
+    "os": "Windows 8.1",
   }
+    {
+    "browser": "edge",
+    "version": "latest",
+    "os": "Windows 10",
+  },
+
 ]

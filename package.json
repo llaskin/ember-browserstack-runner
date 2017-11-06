@@ -2,13 +2,13 @@
   "name": "ember-browserstack-runner",
   "description": "A command line interface to run browser tests over BrowserStack, configured for Ember.js",
   "version": "0.3.8",
-  "homepage": "https://github.com/fanahova/ember-browserstack-runner",
+  "homepage": "https://github.com/llaskin/ember-browserstack-runner",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fanahova/ember-browserstack-runner.git"
+    "url": "https://github.com/llaskin/ember-browserstack-runner"
   },
   "dependencies": {
-    "browserstack": "1.1.0",
+    "saucelabs": "1.4.0",
     "chalk": "0.4.0",
     "tunnel": "0.0.3"
   },
@@ -19,7 +19,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/browserstack/browserstack-runner/blob/master/MIT-LICENSE.txt"
+      "url": "https://github.com/llaskin/ember-browserstack-runner/blob/master/MIT-LICENSE.txt"
     }
   ],
   "bin": {
