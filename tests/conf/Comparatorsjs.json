@@ -1,6 +1,6 @@
 {
-  "username": "BROWSERSTACK_USERNAME",
-  "key": "BROWSERSTACK_KEY",
+  "username": "SAUCE_USERNAME",
+  "key": "SAUCE_ACCESS_KEY",
   "test_path": "comparators.spec-runner.html",
   "test_framework": "jasmine2",
   "debug": true,

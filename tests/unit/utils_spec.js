@@ -18,18 +18,20 @@ describe('Utilities', function(){
   });
 
   it('should generate proper browser string for config', function(){
-    var chrome_mac = {os: "OS X", os_version: "Mavericks", "browser": "chrome", "browser_version": "latest"};
-    var chrome_windows = {os: "Windows", os_version: "XP", "browser": "chrome", "browser_version": "latest"};
+    var chrome_OSX1012_latest = {os: "OS X 10.12", os_version: "Mavericks", "browser": "chrome", "version": "latest"};
+    var chrome_windows7_latest = {os: "Windows 7", os_version: "XP", "browser": "firefox", "version": "latest"};
     // var safari_mac = {os: "OS X", os_version: "Mountain Lion", "browser": "safari", "browser_version": "6.1"};
-    var ie_windows = {os: "Windows", os_version: "7", "browser": "ie", "browser_version": "9.0"};
-    var iOS = {os: "iOS", os_version: "6.0", device: "iPhone 5"};
-    var androidConfig = {os: "android", os_version: "4.1"};
+    var ie_windows8_latest = {os: "Windows 8", os_version: "7", "browser": "internet explorer", "version": "latest"};
+    var ieedge_windows_latest = {os: "Windows 10", os_version: "7", "browser": "edge", "version": "latest"};
+//     var iOS = {os: "iOS", os_version: "6.0", device: "iPhone 5"};
+//     var androidConfig = {os: "android", os_version: "4.1"};
 
-    assert.equal("OS X Mavericks, Chrome latest", utils.browserString(chrome_mac));
-    assert.equal("Windows XP, Chrome latest", utils.browserString(chrome_windows));
-    assert.equal("Windows 7, Internet Explorer 9.0", utils.browserString(ie_windows));
-    assert.equal("iOS 6.0, iPhone 5", utils.browserString(iOS));
-    assert.equal("android 4.1", utils.browserString(androidConfig));
+    assert.equal("OS X Sierra, Chrome latest", utils.browserString(chrome_OSX1012_latest));
+    assert.equal("Windows 7, Firefox latest", utils.browserString(chrome_windows7_latest));
+    assert.equal("Windows 8, Internet Explorer latest", utils.browserString(ie_windows8_latest));
+    assert.equal("Windows 10, Internet Edge latest", utils.browserString(ieedge_windows_latest));
+//     assert.equal("iOS 6.0, iPhone 5", utils.browserString(iOS));
+//     assert.equal("android 4.1", utils.browserString(androidConfig));
   });
 
   it('should return number of keys for this object', function(){
